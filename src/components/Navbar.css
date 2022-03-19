@@ -1,0 +1,42 @@
+.logo > img {
+  width: 130px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(23, 43, 32, 0.868);
+  padding: 20px 120px;
+}
+
+.menu {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu .menu-item {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 688px) {
+  .logo > img {
+    width: 70px;
+  }
+
+  .navbar {
+    padding: 10px 30px;
+  }
+
+  .menu {
+    gap: 10px;
+  }
+
+  .menu .menu-item {
+    font-size: 0.8rem;
+  }
+} ;
